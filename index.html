@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name= "viewport" content="with=device-width, initial-scale=1.0">  <!-- To make the website responsive -->
+        <title>
+            Binary Vision
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/643dffe249.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html" class="logo"> <img src="images/logo3.png"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="vision.html">VISION</a></li>
+                        <li><a href="project.html">PROJECTS</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-compass" onclick="showMenu()" ></i>
+            </nav>
+            <div class="text-book">
+                <h1>Team Binary Bision</h1>
+                <p>A Research & Revelopment team from RUET. We excel in Machine Learning, Computer Vision and Robotics.</p>
+                <a href="vision.html" class="first-button">Click to know more about us.</a>
+
+            </div>
+
+
+
+        </section>
+
+        <section class="About">
+            <h1>About</h1>
+            <p>The team was founded by several students from the dept. of mechatronics Engineering, MTE, RUET in 2018. <br>
+                The team took part in the Tata makerthon challange organized by ESAB for the IITB Techfest Bangladesh round. <br>
+            Being the national champion, the team was the one of the finalist in the IIT Techfest final round. <br> After that, the team took part in several competition
+            and did several research collaboration with other universitites. <br><br>
+            </p>
+
+            <h1>Meet The Team</h1>
+
+            <div class="people">
+
+
+                <div class="profile">
+                            <img src="images/niloyyy.JPG">
+                            <h2>MD Abul Kashem Niloy</h2>
+                            <h3>Robotics Engineer</h3>
+                            <p>Final year student at MTE,RUET</p>
+                </div>
+
+                
+                <div class="profile">
+                    <img src="images/noel.JPG">
+                    <h2>Zubair Azim Miazi</h2>
+                    <h3>ML Engineer</h3>
+                    <p>Final year student at CSE,NSU</p>
+                </div>
+  
+
+        
+                <div class="profile">
+                    <img src="images/sakib.JPG">
+                    <h2>Shahriar Jahan</h2>
+                    <h3>Computer Vision Engineer</h3>
+                    <p>Final year student at MTE,RUET</p>
+                </div>
+
+                <div class="profile">
+                    <img src="images/irfan.jpg">
+                    <h2>Erphan Ahammad Bhuyian</h2>
+                    <h3>Control system Engineer</h3>
+                    <p>Final year student at MTE,RUET</p>
+                </div>
+
+                <div class="profile">
+                    <img src="images/anika.jpg">
+                    <h2>Anika Shama</h2>
+                    <h3>3D Designer</h3>
+                    <p>Final year student at MTE,RUET</p>
+                </div>
+
+                <div class="profile">
+                    <img src="images/nabil.jpg">
+                    <h2>Yeahia Sarker</h2>
+                    <h3>Machine Learning Engineer</h3>
+                    <p>Final year student at MTE,RUET</p>
+                </div>
+
+
+
+          
+          
+            </div>
+
+
+        </section>
+
+        
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---- javascript for toggle menu------>
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu() {
+
+        navLinks.style.right = "0";
+
+    }
+
+    function hideMenu() {
+
+    navLinks.style.right = "-200px";
+
+    }
+</script>
+
+    </body>
+</html>
